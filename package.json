@@ -1,0 +1,23 @@
+{
+  "name": "api-loja-virtual",
+  "version": "1.0.0",
+  "description": "Este projeto visa a construção de uma API simulada para uma mini loja virtual, aplicando os princípios do desenvolvimento *Contract-First*. \r A partir de interfaces de usuário (UI) definidas, irei traduzir os requisitos visuais em contratos de API funcionais, utilizando o `json-server` para criar um mock server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyvasconcelos/api-loja-virtual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielyvasconcelos/api-loja-virtual/issues"
+  },
+  "homepage": "https://github.com/danielyvasconcelos/api-loja-virtual#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
