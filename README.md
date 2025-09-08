@@ -23,14 +23,14 @@ A partir de interfaces de usuário (UI) definidas, irei traduzir os requisitos v
 
 ### Fase 1: Modelagem de Dados e Configuração
 
--   [ ] **1. Identificar os recursos da API:**
+-   [x] **1. Identificar os recursos da API:**
     -   Definir os recursos principais como `categories` e `products`, com uma relação de 1-N (um produto pertence a uma categoria). 
 
--   [ ] **2. Definir o Modelo de Dados Mínimo:** 
-    -   **Categoria:** Deve conter `id` e `name` (obrigatório e sem duplicidade). 
-    -   **Produto:** Deve conter `id`, `name` (obrigatório), `price`, `short_description`, `categoryId` (referência à categoria) e `created_date` (para ordenação). 
+-   [x] **2. Definir o Modelo de Dados Mínimo:** 
+    -   **Categoria:** Deve conter `id` e `nome` (obrigatório e sem duplicidade). 
+    -   **Produto:** Deve conter `id`, `nome` (obrigatório), `preco`, `descricao`, `categoriaId` (referência à categoria) e `date` (para ordenação). 
 
--   [ ] **3. Criar e Popular o arquivo `db.json`:** 
+-   [x] **3. Criar e Popular o arquivo `db.json`:** 
     -   Criar o arquivo `db.json`.
     -   Adicionar ao menos 3 categorias distintas. 
     -   Adicionar ao menos 6 produtos distribuídos entre as categorias criadas. 
