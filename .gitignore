@@ -1,0 +1,17 @@
+# Dependências do Node.js
+# Esta pasta é gerada automaticamente pelo 'npm install' e pode ser muito grande.
+node_modules/
+
+# Arquivos de ambiente
+# Guardam senhas e chaves de API, nunca devem ir para o repositório.
+.env
+
+# Logs
+# Arquivos de log gerados durante a execução ou testes.
+*.log
+
+# Arquivos de sistema operacional
+# Arquivos temporários gerados pelo macOS e Windows.
+.DS_Store
+Thumbs.db
+```
