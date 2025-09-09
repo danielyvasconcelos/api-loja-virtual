@@ -42,45 +42,45 @@ Crie um arquivo de texto para armazenar os comandos cURL correspondentes a cada 
 
 #### **Recurso: Categories** 
 
--   [ ] **Listar Categorias:**
+-   [x] **Listar Categorias:**
     -   Criar um cURL para `GET /categories` que demonstre a listagem paginada  
 
--   [ ] **Criar Categoria:**
+-   [x] **Criar Categoria:**
     -   Criar um cURL para `POST /categories` enviando o payload de uma nova categoria válida. 
--   [ ] **Editar Categoria:**
+-   [x] **Editar Categoria:**
     -   Criar um cURL para `PATCH /categories/{id}` ou `PUT /categories/{id}` para editar o nome de uma categoria existente. 
 
--   [ ] **Excluir Categoria:**
+-   [x] **Excluir Categoria:**
     -   Criar um cURL para `DELETE /categories/{id}` para excluir uma categoria existente. 
 
 #### [cite_start]**Recurso: Products** 
 
--   [ ] **Listar Produtos:**
+-   [x] **Listar Produtos:**
     -   Criar um cURL para `GET /products` que demonstre a listagem paginada e ordenada por um campo 
 
--   [ ] **Filtrar Produtos por Categoria:**
+-   [x] **Filtrar Produtos por Categoria:**
     -   Criar um cURL para `GET /products?categoryId={id}` para listar apenas os produtos de uma categoria específica. 
 
--   [ ] **Consultar Detalhes do Produto:**
+-   [x] **Consultar Detalhes do Produto:**
     -  Criar um cURL para `GET /products/{id}` para consultar os detalhes de um produto específico. 
 
--   [ ] **Criar Produto:**
+-   [x] **Criar Produto:**
     -  Criar um cURL para `POST /products` para criar um novo produto, garantindo que ele esteja vinculado a uma `categoryId` existente. 
 
--   [ ] **Editar Produto:**
+-   [x] **Editar Produto:**
     -  Criar um cURL para `PATCH /products/{id}` para editar campos de um produto existente (ex: `price` ou `description`). 
 
--   [ ] **Excluir Produto:**
+-   [x] **Excluir Produto:**
     -  Criar um cURL para `DELETE /products/{id}` para excluir um produto existente. 
 
 ---
 
 ### Fase 3: Entregáveis do Projeto
 
--   [ ] **1.Arquivo `db.json`:** 
+-   [x] **1.Arquivo `db.json`:** 
     -  O arquivo deve estar corretamente configurado e populado conforme os requisitos da Fase 1.
 
--   [ ] **2.Arquivo de cURLs:** 
+-   [x] **2.Arquivo de cURLs:** 
     -  Um único arquivo de texto (`.txt` ou `.md`) contendo todos os comandos cURL organizados por recurso/fluxo, cobrindo todos os critérios de aceite da Fase 2. 
 
 ## Como Executar o Projeto
