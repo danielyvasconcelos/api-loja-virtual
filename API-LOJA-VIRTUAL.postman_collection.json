@@ -1,0 +1,316 @@
+{
+	"info": {
+		"_postman_id": "704a1300-c179-4e08-8e91-0338dcdd5144",
+		"name": "API-LOJA-VIRTUAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48297471",
+		"_collection_link": "https://daniely-vasconcelos-6917551.postman.co/workspace/Daniely-Evellin-da-Silva-Vascon~ddd8a681-0db9-4ab4-8ec9-de6786b1618b/collection/48297471-704a1300-c179-4e08-8e91-0338dcdd5144?action=share&source=collection_link&creator=48297471"
+	},
+	"item": [
+		{
+			"name": "Filtrar Produtos por Categoria",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Categorias com Paginação",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/categorias?_page=1&_limit=8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias"
+					],
+					"query": [
+						{
+							"key": "_page",
+							"value": "1"
+						},
+						{
+							"key": "_limit",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar uma Categoria",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\"nome\": \"Calçados\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/categorias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir uma Categoria",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/categorias/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar o Nome de uma Categoria",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Acessórios\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/categorias/39d0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias",
+						"39d0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Produtos com Paginação e Ordenação",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/produtos?_page=1&_limit=6&_sort=created_at&_order=desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"produtos"
+					],
+					"query": [
+						{
+							"key": "_page",
+							"value": "1"
+						},
+						{
+							"key": "_limit",
+							"value": "6"
+						},
+						{
+							"key": "_sort",
+							"value": "created_at"
+						},
+						{
+							"key": "_order",
+							"value": "desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filtrar Produtos por Categoria",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/produtos?categoriaId=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"produtos"
+					],
+					"query": [
+						{
+							"key": "categoriaId",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Detalhes de um Produto por ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "Consultar Detalhes de um Produto por ID",
+					"host": [
+						"Consultar Detalhes de um Produto por ID"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar um Produto Válido",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n      \"id\": \"8\",\r\n      \"nome\": \"Capinha Kindle\",\r\n      \"preco\": 120.00,\r\n      \"descricao\": \"descrição do produtos\",\r\n      \"dataCriacao\": \"2025-09-19\",\r\n      \"categoriaId\": \"1\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Campos de um Produto",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"descricao\": \"Capinha azul claro, com glitter \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/produtos/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"produtos",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir um Produto",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/produtos/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"produtos",
+						"9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

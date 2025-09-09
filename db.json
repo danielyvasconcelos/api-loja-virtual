@@ -1,77 +1,98 @@
 {
-    "categorias": [
-        {
-        "id": 1,
-        "nome": "Eletronicos"
-        },
-        {
-            "id": 2,
-            "nome": "Roupas"
-        },
-        {
-            "id": 3,
-            "nome": "Casa e Jardim"
-        },
-        {
-            "id": 4,
-            "nome":"Esportes"
-        },
-        {
-            "id": 5,
-            "nome": "Livros"
-        },
-        {
-            "id": 6,
-            "nome":"Maquiagem"
-        },
-        {
-            "id": 7,
-            "nome": "Brinquedos"
-        },
-        {
-            "id": 8,
-            "nome": "Alimentação"
-        }
-
-    ],
-
-    "produtos": [
-        {
-            "id":1,
-            "nome": "HeadPhone",
-            "preco": 199.99,
-            "descricao": "descrição do produtos",
-            "dataCriacao": "2025-09-08",
-            "categoriaId": 1
-
-        },
-
-        {
-             "id":2,
-            "nome": "Batom",
-            "preco": 59.99,
-            "descricao": "descrição do produtos",
-            "dataCriacao": "2025-09-08",
-            "categoriaId": 6
-        },
-        
-        {
-             "id":3,
-            "nome": "Urso de Pelucia",
-            "preco": 49.99,
-            "descricao": "descrição do produtos",
-            "dataCriacao": "2025-09-08",
-            "categoriaId": 7
-        },
-
-         {
-             "id":4,
-            "nome": "Talheres",
-            "preco": 59.99,
-            "descricao": "descrição do produtos",
-            "dataCriacao": "2025-09-08",
-            "categoriaId": 3
-        }
-    ]
-
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Eletronicos"
+    },
+    {
+      "id": "2",
+      "nome": "Roupas"
+    },
+    {
+      "id": "4",
+      "nome": "Esportes"
+    },
+    {
+      "id": "5",
+      "nome": "Livros"
+    },
+    {
+      "id": "6",
+      "nome": "Maquiagem"
+    },
+    {
+      "id": "7",
+      "nome": "Brinquedos"
+    },
+    {
+      "id": "8",
+      "nome": "Alimentação"
+    },
+    {
+      "nome": "Acessórios",
+      "id": "39d0"
+    },
+    {
+      "id": "ce2d",
+      "nome": "Calçados"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "HeadPhone",
+      "preco": 199.99,
+      "descricao": "descrição do produtos",
+      "dataCriacao": "2025-09-08",
+      "categoriaId": 1
+    },
+    {
+      "id": "2",
+      "nome": "Batom",
+      "preco": 59.99,
+      "descricao": "descrição do produtos",
+      "dataCriacao": "2025-09-08",
+      "categoriaId": 6
+    },
+    {
+      "id": "3",
+      "nome": "Urso de Pelucia",
+      "preco": 49.99,
+      "descricao": "descrição do produtos",
+      "dataCriacao": "2025-09-08",
+      "categoriaId": 7
+    },
+    {
+      "id": "5",
+      "nome": "Paleta de Maquiagem",
+      "preco": 129.99,
+      "descricao": "descrição do produtos",
+      "dataCriacao": "2025-09-09",
+      "categoriaId": 6
+    },
+    {
+      "id": "6",
+      "nome": "Gloss Francine ",
+      "preco": 59.99,
+      "descricao": "descrição do produtos",
+      "dataCriacao": "2025-09-09",
+      "categoriaId": 6
+    },
+    {
+      "id": "7",
+      "nome": "Capinha Iphone 14 ",
+      "preco": 50,
+      "descricao": "Capinha azul claro, com glitter ",
+      "dataCriacao": "2025-09-09",
+      "categoriaId": "39d0"
+    },
+    {
+      "id": "8",
+      "nome": "Capinha Kindle",
+      "preco": 120,
+      "descricao": "descrição do produtos",
+      "dataCriacao": "2025-09-19",
+      "categoriaId": "1"
+    }
+  ]
 }
